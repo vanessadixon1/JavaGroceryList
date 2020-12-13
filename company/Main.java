@@ -8,12 +8,7 @@ public class Main {
     private static GroceryList groceryList = new GroceryList();
 
     public static void main(String[] args) {
-        String[] num = new String[4];
-        num[0] = "hello";
-        for(int i = 0; i < num.length;i++) {
-            System.out.println(num[i]);
-        }
-
+        
         boolean quit = false;
         int choice = 0;
         printInstructions();
