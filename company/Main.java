@@ -1,8 +1,5 @@
 package com.company;
 
-import java.lang.reflect.Array;
-import java.sql.SQLOutput;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -16,8 +13,6 @@ public class Main {
         for(int i = 0; i < num.length;i++) {
             System.out.println(num[i]);
         }
-
-        GroceryList grocery = new GroceryList();
 
         boolean quit = false;
         int choice = 0;
@@ -68,7 +63,6 @@ public class Main {
 
     public static void addItem() {
         System.out.println("Please enter the grocery item");
-//        String item = scanner.nextLine();
         groceryList.addGroceryItem(scanner.nextLine());
     }
 
